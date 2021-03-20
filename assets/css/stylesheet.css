@@ -1,66 +1,126 @@
 * {
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0cm;
-    padding: 0cm;
+}
+h1{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    background-color: rgb(89, 90, 83);
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
 
   }
   nav {
-      background-color: rgb(201, 201, 14);
+      background-color: rgb(126, 126, 114);
       text-align: right;
       padding: 15px;
   }
 
-  nav li {
+   nav li {
       color: white;
       display: inline-block;
-      text-decoration: inline;
+      text-decoration: none;
       text-align: right;
       font-size: 16px;
       padding-right: 100px;
     }
 
-img {
-  display: block;
-  margin: 20px auto;
-  width: 500px;
-}
-
-main {
-  background-color: rgb(165, 167, 163);
-  align-content: center;
-  padding: 20px;
-}
-
-.h2 {
-  text-align: center;
-}
-
-.b img {
-  width: 500px;
-  border: 5px solid black;
-  
-}
-
-.a img {
-  width: 500px;
-  height: 100px;
-  border: 5px solid black;
+  .banner .banner-img {
+   width: 100%;
+   height: 150px;
+   padding: 0px;
+   margin: 0px;
 }
 
 .slg {
-  width: 500px;
+  width: 350px;
+  margin: auto;
+  display: block;
 }
- footer {
-   text-align: center;
-   background-color: black;
-   padding: 40px;
-   color: blanchedalmond;
- }
 
- .banner .banner-img {
-   width: 100%;
-   height: 200px;
-   padding: 0px;
-   margin: 0px;
+.aboutme {
+  background-color: rgb(162, 163, 163);
+  padding: 20px;
+  margin: 0px;
+  display: block;
+
+}
+
+a:hover {
+  background-color:white;
+}
+
+.bigcard {
+  padding: 20px;
+}
+
+.bigcard img:hover {
+  background-color: blue;
+
+}
+
+.bigcard img {
+  display: block;
+  margin: 20px auto;  
+  border: 3px solid black;
+}
+
+.img-skill {
+  width: 600px;
+  background-image: url(/Portfolio-Homework/assets/images/skill-1.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.img-skill-2 {
+  width: 600px;
+  height: 100px;
+  background-image: url(/Portfolio-Homework/assets/images/skill-2.jpg);
+  background-position: center;
+  float: left;
+}
+
+.img-skill-3 {
+  width: 600px;
+  height: 100px;
+  background-image: url(/Portfolio-Homework/assets/images/skill-3.jpg);
+  background-position: center;
+  float: left;
+}
+
+.img-skill-4 {
+  width: 600px;
+  height: 100px;
+  background-image: url(/Portfolio-Homework/assets/images/skill-4.jpg);
+  background-position: center;
+  float: left;
+}
+
+.img-skill-5 {
+  width: 600px;
+  height: 100px;
+  background-image: url(/Portfolio-Homework/assets/images/skill-4.jpg);
+  background-position: center;
+  float: left;
+}
+
+.contact {
+  text-align: center;
+
+}
+
+.contact li {
+  color: white;
+      display: inline-block;
+      text-decoration: inline;
+      text-align: right;
+      font-size: 20px;
+      padding-right: 100px;
 }
