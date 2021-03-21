@@ -28,6 +28,18 @@ h2 {
       padding: 15px;
   }
 
+
+  .banner {
+    width: 100%;
+    display: block;
+  }
+
+  .banner > .banner-img {
+    width: 100%;
+    display: block;
+    height: 200px;
+  }
+
    nav li {
       color: white;
       display: inline-block;
@@ -43,16 +55,7 @@ h2 {
       color: white;
 
     }
-
-
-
-  .banner .banner-img {
-   width: 100%;
-   height: 150px;
-   padding: 0px;
-   margin: 0px;
-}
-
+    
 .slg {
   width: 400px;
   margin: auto;
@@ -173,11 +176,6 @@ h2 {
   font-size: 2em;
   font-weight: bold;
 }
-
-
-
-
-
 
 .pic__paragraph {
   margin: auto;
