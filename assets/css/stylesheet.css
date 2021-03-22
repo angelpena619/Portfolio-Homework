@@ -12,8 +12,6 @@ h1{
     font-size: 55px;
     color: white;
   }
-
-
 h2 {
     font-size: 40px;
     margin-left: 400px;
@@ -28,6 +26,10 @@ h2 {
       padding: 15px;
   }
 
+  a {
+    color: white;
+    text-decoration: none;
+}
 
   .banner {
     width: 100%;
@@ -45,7 +47,7 @@ h2 {
       display: inline-block;
       text-decoration: none;
       text-align: right;
-      font-size: 16px;
+      font-size: 20px;
       padding-right: 100px;
       justify-content: space-evenly;
     }
@@ -55,12 +57,25 @@ h2 {
       color: white;
 
     }
-    
+
+  /* ABOUT ME PICTURE */
+
 .slg {
   width: 400px;
   margin: auto;
   display: block;
 }
+
+
+.pic__paragraph {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  text-align: left;
+  display: block;
+  color: aliceblue;
+  }
 
 .aboutme {
   background-color: rgb(162, 163, 163);
@@ -69,6 +84,7 @@ h2 {
   display: block;
 
 }
+  /* CONTACT SELECTORS BELOW */
 
 .contact ul {
   text-align: right;
@@ -88,6 +104,9 @@ h2 {
       font-size: 20px;
       padding-right: 100px;
 }
+
+    /* BIG HOVER CARD BELOW */
+
 
 .image {
   position: relative;
@@ -117,8 +136,8 @@ h2 {
   font-size: 15px;
   opacity: 0;
   }
-
-.image__overlay:hover {
+  
+  .image__overlay:hover {
   opacity: 1;
 }
 
@@ -136,6 +155,9 @@ h2 {
   display: block;
   margin: auto;
 }
+
+    /* SMALLER HOVER CARDS BELOW */
+
 
 .image__2 {
   position: relative;
@@ -177,20 +199,10 @@ h2 {
   font-weight: bold;
 }
 
-.pic__paragraph {
+footer {
   margin: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
-  width: 400px;
-  text-align: left;
-  display: block;
-  color: aliceblue;
-  }
-
-  footer {
-  margin: 0cm;
-  margin-top: 20px;
-  padding: 0cm;
+  padding: 20px;
   height: 100px;
   background-color: black;
   padding: 20px;
